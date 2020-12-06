@@ -16,11 +16,12 @@ const rules = [
     }
 ];
 
+console.log('dirname: ' + __dirname)
 const client = {
     entry: './src/client.js',
     output: {
         path: path.resolve(__dirname, './dist/public/'),
-        filename: 'bundle.js'
+        filename: 'bund.js'
     },
     module: {
         rules
